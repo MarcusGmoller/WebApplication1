@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\BUY HERE LOGO TJEKISBLÅ.png" />
+    <None Include="wwwroot\Images\BUY HERE LOGO.png" />
+    <None Include="wwwroot\Images\BUY SPICE SAVE ARRAKIS.png" />
+    <None Include="wwwroot\Images\buy_here-removebg-preview.png" />
+    <None Include="wwwroot\Images\CONTACT OWNERSHIP.png" />
+    <None Include="wwwroot\Images\DEX SCREENER LOGO CLEAN.png" />
+    <None Include="wwwroot\Images\DEX Screener logo.png" />
+    <None Include="wwwroot\Images\Front.PAL.Atreideez.png" />
+    <None Include="wwwroot\Images\Front.PAL.Atreideez_2_33 REsized.png" />
+    <None Include="wwwroot\Images\LP TOKENS ARE BURNT.png" />
+    <None Include="wwwroot\Images\LP TOKENS ARE LOCKED.png" />
+    <None Include="wwwroot\Images\NEW TELEGRAM LOGO.png" />
+    <None Include="wwwroot\Images\NO TAX NO BUILLSHIT.png" />
+    <None Include="wwwroot\Images\NO TAXES.png" />
+    <None Include="wwwroot\Images\PAL ATREIDEEZ UDEN  FONT.png" />
+    <None Include="wwwroot\Images\PALA ATREIDEEZ.png" />
+    <None Include="wwwroot\Images\pal_atreideez_logo.png" />
+    <None Include="wwwroot\Images\paul_atreideez Mini.jpg" />
+    <None Include="wwwroot\Images\Skærmbillede 2024-03-08 183912.png" />
+    <None Include="wwwroot\Images\SPICE TJEKISBLÅ.png" />
+    <None Include="wwwroot\Images\SYMBOL TJEKISBLÅ.png" />
+    <None Include="wwwroot\Images\SYMBOL.png" />
+    <None Include="wwwroot\Images\TELEGRAM LOGO PURE.png" />
+    <None Include="wwwroot\Images\TELEGRAM LOGO.png" />
+    <None Include="wwwroot\Images\TOKEN ADDRESS.png" />
+    <None Include="wwwroot\Images\TOKENOMICS lolo.png" />
+    <None Include="wwwroot\Images\TOKENOMICS NEW.png" />
+    <None Include="wwwroot\Images\TOKENS ARE BURNED.png" />
+    <None Include="wwwroot\Images\TOTAL SUPPLY.png" />
+    <None Include="wwwroot\Images\TWITTER LOGO.png" />
+    <None Include="wwwroot\Images\X LOGO.png" />
+    <None Include="wwwroot\Images\X_logo_2023_28white29.png" />
+  </ItemGroup>
+
+</Project>

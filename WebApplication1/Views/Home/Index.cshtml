@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joe Boden 1</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            color: #fff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('images/Front.PAL.ATREIDEEZ.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 70px;
+            color: #07fefc;
+            font-family: cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+        }
+
+        .front-picture img {
+            width: 1500px;
+            height: auto;
+            background-color: #081f34;
+            padding: 25px;
+            
+        }
+
+        .button-container {
+            margin-top: 50px;
+            font-size: 200%;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 10px;
+            background-color: #fcf9e1;
+            color: #07fefc;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .button span {
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .button:hover span {
+            color: #000;
+        }
+
+        .section {
+            padding: 50px 0;
+            background-color: #333;
+        }
+
+        .section h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            color: #ccc;
+        }
+        .token-adress {
+            background-color: #081f34;
+            padding: 25px 0;
+            color: #07fefc;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            
+        }
+        .text-to-copy{
+            background-color: #081f34;
+            padding: 25px 0;
+            
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <section>
+        <div class="button-container">
+            <a href="#section-1" class="button"><span>About</span></a>
+            <a href="#section-2" class="button" style="transform: translateX(-150%) translateY(-255%)"><span>How to buy</span></a>
+            <a href="#section-3" class="button" style="transform: translateX(150%) translateY(-500%)"><span>Tokenomics</span></a>
+        </div>
+    </section>
+
+<div class="background"></div>
+    <section>
+        <div class="header">
+            <h1>Help Pal Atreideez beat the Harkonnans, and control all this $SPICE</h1>
+    </section>
+
+        <section>
+            <div class="front-picture img">
+                <img src="Images/ABOUTIT.PNG" alt="Buy spice" />
+            </div>
+    </div>
+    </section>
+   <section>
+       <div class="front-picture">
+           <img src="Images/LOCKED.png" alt=" tokenomics og totalt supply billede"
+       </div>
+   </section>
+  <section>
+            <div class="token-adress">
+                <h1>TOKEN ADRESS</h1>
+            </div>
+
+         <div class=" text-to-copy">
+        <p id="textToCopy">
+            3sygtjhip2QLiF4dsVPWfU2KUXx5MinvpsKQYx7FQLjY
+        </p>
+
+        <script>
+            document.getElementById('textToCopy').addEventListener('click', function () {
+                // Select the text
+                const text = document.getElementById('textToCopy').innerText;
+
+                // Use the asynchronous Clipboard API
+                navigator.clipboard.writeText(text).then(function () {
+                    // If successful, inform the user
+                    alert('Text copied to clipboard: ' + text);
+                }, function (err) {
+                    // If unsuccessful, log the error
+                    console.error('Could not copy text: ', err);
+                });
+            });
+        </script>
+        </div>
+</section>
+
+ <section>
+     <div class="header">
+          <h1>How to buy</h1>
+     </div>
+
+
+ </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
